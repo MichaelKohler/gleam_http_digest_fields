@@ -1,0 +1,15 @@
+name = "http_digest_fields"
+version = "1.0.0"
+
+description = "HTTP Digest Field (RFC 9530) header value helper functions"
+licences = ["MIT"]
+repository = { type = "github", user = "MichaelKohler", repo = "gleam_http_digest_fields" }
+links = []
+
+[dependencies]
+gleam_stdlib = ">= 1.0.0 and < 2.0.0"
+structured_fields = ">= 1.0.0 and < 2.0.0"
+gleam_crypto = ">= 1.6.0 and < 2.0.0"
+
+[dev_dependencies]
+gleeunit = ">= 1.0.0 and < 2.0.0"
