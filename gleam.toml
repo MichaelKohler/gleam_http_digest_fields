@@ -1,5 +1,5 @@
 name = "http_digest_fields"
-version = "1.0.0"
+version = "1.0.1"
 
 description = "HTTP Digest Field (RFC 9530) header value helper functions"
 licences = ["MIT"]
